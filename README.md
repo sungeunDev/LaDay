@@ -7,3 +7,11 @@
 - 안지올: 디자인, 웹
 - 박성은: iOS App
 - 김유진, 최상희 : Android App
+
+
+- screenshot
+![main](/screenshot/main.png)
+![post1](/screenshot/post1.png)
+![post2](/screenshot/post2.png)
+![post3](/screenshot/post3.png)
+
