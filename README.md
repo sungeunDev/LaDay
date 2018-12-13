@@ -12,9 +12,12 @@
 
 - screenshot
 > Main
-<img src = /screenshot/main.png height = 500>
 
+<kbd><img src = /screenshot/main.png height = 500></kbd>
+<p>
+  
 > Post Page
-<img src = /screenshot/post1.png height = 500>
+  
+<kbd><img src = /screenshot/post1.png height = 500>
 <img src = /screenshot/post2.png height = 500>
-<img src = /screenshot/post3.png height = 500>
+<img src = /screenshot/post3.png height = 500></kbd>
