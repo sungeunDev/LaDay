@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C0D84B37D557F7AC4BAA07 /* Pods_LaDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B91BB607AB01D7D003BC812 /* Pods_LaDay.framework */; };
+		FEE23F6821B25FE400E1938E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F6721B25FE400E1938E /* AppDelegate.swift */; };
+		FEE23F6A21B25FE400E1938E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F6921B25FE400E1938E /* ViewController.swift */; };
+		FEE23F6D21B25FE400E1938E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE23F6B21B25FE400E1938E /* Main.storyboard */; };
+		FEE23F6F21B25FE600E1938E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE23F6E21B25FE600E1938E /* Assets.xcassets */; };
+		FEE23F7221B25FE600E1938E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE23F7021B25FE600E1938E /* LaunchScreen.storyboard */; };
+		FEE23F7B21B2608300E1938E /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F7921B2608300E1938E /* DayCell.swift */; };
+		FEE23F7C21B2608300E1938E /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE23F7A21B2608300E1938E /* DayCell.xib */; };
+		FEE23F7E21B2616F00E1938E /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F7D21B2616F00E1938E /* Day.swift */; };
+		FEE23F8021B2638000E1938E /* StatusCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F7F21B2638000E1938E /* StatusCheck.swift */; };
+		FEE23F8621B26D6D00E1938E /* FirstQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F8521B26D6D00E1938E /* FirstQuestionViewController.swift */; };
+		FEE23F8821B26D7500E1938E /* SecondQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F8721B26D7500E1938E /* SecondQuestionViewController.swift */; };
+		FEE23F8A21B26D7E00E1938E /* ThirdQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F8921B26D7E00E1938E /* ThirdQuestionViewController.swift */; };
+		FEE23F8C21B2794B00E1938E /* RootNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F8B21B2794B00E1938E /* RootNaviController.swift */; };
+		FEE23F8E21B28DE700E1938E /* SeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE23F8D21B28DE700E1938E /* SeeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B91BB607AB01D7D003BC812 /* Pods_LaDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		284B13B25C4908DB75774B52 /* Pods-LaDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaDay/Pods-LaDay.debug.xcconfig"; sourceTree = "<group>"; };
+		7C6D7FB752E839DA1B2E1B12 /* Pods-LaDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaDay/Pods-LaDay.release.xcconfig"; sourceTree = "<group>"; };
+		FEE23F6421B25FE400E1938E /* LaDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE23F6721B25FE400E1938E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEE23F6921B25FE400E1938E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEE23F6C21B25FE400E1938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEE23F6E21B25FE600E1938E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEE23F7121B25FE600E1938E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEE23F7321B25FE600E1938E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE23F7921B2608300E1938E /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		FEE23F7A21B2608300E1938E /* DayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		FEE23F7D21B2616F00E1938E /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		FEE23F7F21B2638000E1938E /* StatusCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCheck.swift; sourceTree = "<group>"; };
+		FEE23F8521B26D6D00E1938E /* FirstQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionViewController.swift; sourceTree = "<group>"; };
+		FEE23F8721B26D7500E1938E /* SecondQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestionViewController.swift; sourceTree = "<group>"; };
+		FEE23F8921B26D7E00E1938E /* ThirdQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdQuestionViewController.swift; sourceTree = "<group>"; };
+		FEE23F8B21B2794B00E1938E /* RootNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNaviController.swift; sourceTree = "<group>"; };
+		FEE23F8D21B28DE700E1938E /* SeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE23F6121B25FE400E1938E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C0D84B37D557F7AC4BAA07 /* Pods_LaDay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FBE96653BE975CCD34F189 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				284B13B25C4908DB75774B52 /* Pods-LaDay.debug.xcconfig */,
+				7C6D7FB752E839DA1B2E1B12 /* Pods-LaDay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD059988AADAEAAAF3C37BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B91BB607AB01D7D003BC812 /* Pods_LaDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEE23F5B21B25FE400E1938E = {
+			isa = PBXGroup;
+			children = (
+				FEE23F6621B25FE400E1938E /* LaDay */,
+				FEE23F6521B25FE400E1938E /* Products */,
+				84FBE96653BE975CCD34F189 /* Pods */,
+				DD059988AADAEAAAF3C37BAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE23F6521B25FE400E1938E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE23F6421B25FE400E1938E /* LaDay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE23F6621B25FE400E1938E /* LaDay */ = {
+			isa = PBXGroup;
+			children = (
+				FEE23F6721B25FE400E1938E /* AppDelegate.swift */,
+				FEE23F8B21B2794B00E1938E /* RootNaviController.swift */,
+				FEE23F6921B25FE400E1938E /* ViewController.swift */,
+				FEE23F8521B26D6D00E1938E /* FirstQuestionViewController.swift */,
+				FEE23F8721B26D7500E1938E /* SecondQuestionViewController.swift */,
+				FEE23F8921B26D7E00E1938E /* ThirdQuestionViewController.swift */,
+				FEE23F6B21B25FE400E1938E /* Main.storyboard */,
+				FEE23F8D21B28DE700E1938E /* SeeViewController.swift */,
+				FEE23F8221B2644700E1938E /* Components */,
+				FEE23F8121B2643B00E1938E /* Models */,
+				FEE23F6E21B25FE600E1938E /* Assets.xcassets */,
+				FEE23F7021B25FE600E1938E /* LaunchScreen.storyboard */,
+				FEE23F7321B25FE600E1938E /* Info.plist */,
+			);
+			path = LaDay;
+			sourceTree = "<group>";
+		};
+		FEE23F8121B2643B00E1938E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEE23F7D21B2616F00E1938E /* Day.swift */,
+				FEE23F7F21B2638000E1938E /* StatusCheck.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEE23F8221B2644700E1938E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FEE23F7921B2608300E1938E /* DayCell.swift */,
+				FEE23F7A21B2608300E1938E /* DayCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE23F6321B25FE400E1938E /* LaDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE23F7621B25FE600E1938E /* Build configuration list for PBXNativeTarget "LaDay" */;
+			buildPhases = (
+				C331FE387F20FDDFB927747B /* [CP] Check Pods Manifest.lock */,
+				FEE23F6021B25FE400E1938E /* Sources */,
+				FEE23F6121B25FE400E1938E /* Frameworks */,
+				FEE23F6221B25FE400E1938E /* Resources */,
+				C427DBFD7689568D6CE3799F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaDay;
+			productName = LaDay;
+			productReference = FEE23F6421B25FE400E1938E /* LaDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE23F5C21B25FE400E1938E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sungeun Park";
+				TargetAttributes = {
+					FEE23F6321B25FE400E1938E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FEE23F5F21B25FE400E1938E /* Build configuration list for PBXProject "LaDay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE23F5B21B25FE400E1938E;
+			productRefGroup = FEE23F6521B25FE400E1938E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE23F6321B25FE400E1938E /* LaDay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE23F6221B25FE400E1938E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE23F7221B25FE600E1938E /* LaunchScreen.storyboard in Resources */,
+				FEE23F6F21B25FE600E1938E /* Assets.xcassets in Resources */,
+				FEE23F7C21B2608300E1938E /* DayCell.xib in Resources */,
+				FEE23F6D21B25FE400E1938E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C331FE387F20FDDFB927747B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C427DBFD7689568D6CE3799F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LaDay/Pods-LaDay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaDay/Pods-LaDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE23F6021B25FE400E1938E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE23F6A21B25FE400E1938E /* ViewController.swift in Sources */,
+				FEE23F8621B26D6D00E1938E /* FirstQuestionViewController.swift in Sources */,
+				FEE23F8A21B26D7E00E1938E /* ThirdQuestionViewController.swift in Sources */,
+				FEE23F8821B26D7500E1938E /* SecondQuestionViewController.swift in Sources */,
+				FEE23F7B21B2608300E1938E /* DayCell.swift in Sources */,
+				FEE23F7E21B2616F00E1938E /* Day.swift in Sources */,
+				FEE23F6821B25FE400E1938E /* AppDelegate.swift in Sources */,
+				FEE23F8021B2638000E1938E /* StatusCheck.swift in Sources */,
+				FEE23F8E21B28DE700E1938E /* SeeViewController.swift in Sources */,
+				FEE23F8C21B2794B00E1938E /* RootNaviController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEE23F6B21B25FE400E1938E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE23F6C21B25FE400E1938E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEE23F7021B25FE600E1938E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE23F7121B25FE600E1938E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE23F7421B25FE600E1938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEE23F7521B25FE600E1938E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE23F7721B25FE600E1938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284B13B25C4908DB75774B52 /* Pods-LaDay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXH5CKM9TX;
+				INFOPLIST_FILE = LaDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungeun.LaDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEE23F7821B25FE600E1938E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C6D7FB752E839DA1B2E1B12 /* Pods-LaDay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXH5CKM9TX;
+				INFOPLIST_FILE = LaDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sungeun.LaDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE23F5F21B25FE400E1938E /* Build configuration list for PBXProject "LaDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE23F7421B25FE600E1938E /* Debug */,
+				FEE23F7521B25FE600E1938E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE23F7621B25FE600E1938E /* Build configuration list for PBXNativeTarget "LaDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE23F7721B25FE600E1938E /* Debug */,
+				FEE23F7821B25FE600E1938E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE23F5C21B25FE400E1938E /* Project object */;
+}
